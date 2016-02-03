@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{EFEC1973-A367-65E4-B58F-AD6DFD527E89}") = "BofferQuest", "Assembly-CSharp.csproj", "{1C837D04-8153-38AA-5BBE-57AFACB292C3}"
 EndProject
+Project("{EFEC1973-A367-65E4-B58F-AD6DFD527E89}") = "BofferQuest", "Assembly-CSharp-Editor.csproj", "{7A527B98-012D-6E73-2DBB-C5B3EC54BE89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{1C837D04-8153-38AA-5BBE-57AFACB292C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C837D04-8153-38AA-5BBE-57AFACB292C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C837D04-8153-38AA-5BBE-57AFACB292C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A527B98-012D-6E73-2DBB-C5B3EC54BE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A527B98-012D-6E73-2DBB-C5B3EC54BE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A527B98-012D-6E73-2DBB-C5B3EC54BE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A527B98-012D-6E73-2DBB-C5B3EC54BE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
