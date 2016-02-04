@@ -42,4 +42,9 @@ public class GeneralMenuNavigation : MonoBehaviour {
 		SceneManager.LoadScene ("HighScores");
 	}
 
+	//Will be changed to pass in selected stats, save them to a file,
+	//and then load the new scene with those stats present.
+	public void LoadSceneDayOne(){
+		SceneManager.LoadScene ("DayOne");
+	}
 }
