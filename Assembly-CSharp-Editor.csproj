@@ -45,7 +45,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\DialogueEditorAssetModificationProcessor.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\DialogueEditorHelp.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\DialogueEditorMasterObjectWrapperEditor.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\DialogueEditorWindow.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\DialoguerEnumGenerator.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\GUI\DialogueEditorGUI.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\Managers\DialogueEditorDataManager.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\ThemeEditorWindow.cs" />
+     <Compile Include="Assets\Dialoguer\DialogueEditor\Scripts\Editor\VariableEditorWindow.cs" />
      <Compile Include="Assets\Editor\uGUITools.cs" />
+     <None Include="Assets\Dialoguer_README.txt" />
+     <None Include="Assets\DialoguerExamples\_README.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
