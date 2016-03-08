@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DialoguerExampleStart : MonoBehaviour {
 
-	void Awake(){
-		// You must initialize Dialoguer before using it!
-		Dialoguer.Initialize();
-
-
+	void Start(){
+		
+		Dialoguer.StartDialogue(DialoguerDialogues.TestDialogue);
+		//Dialoguer.events.onStarted += onStarted;
+		Dialoguer.events.onEnded += onEnded;
 	}
 
-	void Start(){
-		Dialoguer.StartDialogue(DialoguerDialogues.TestDialogue);
+	//private void onStarted(){}
+
+	private void onEnded(){
+		SceneManager.LoadScene ("HighScores");
 	}
 	/*
 	void OnGUI(){
