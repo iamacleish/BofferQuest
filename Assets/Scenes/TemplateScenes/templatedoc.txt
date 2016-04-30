@@ -1,0 +1,5 @@
+/*
+Button.width = screen.width/3 (.3333333, .6666666)
+Button.height = screen.height/10 (1, 2)
+Button.box = (0.33333 , 0.0, 0.66666, 0.1)
+*/
