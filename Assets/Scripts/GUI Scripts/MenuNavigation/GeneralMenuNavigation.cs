@@ -42,6 +42,24 @@ public class GeneralMenuNavigation : MonoBehaviour {
 		SceneManager.LoadScene ("HighScores");
 	}
 
+
+	/*
+	 * 
+	 * NEW GAME STUFF
+	 * 
+	 */
+	public void LoadSceneCharacterCreation(int region){
+		if (region == 0) {
+			region = Random.Range(1, 4);
+
+		}
+		PlayerPrefs.SetInt("PlayerRegion", region);
+		print (PlayerPrefs.GetInt ("PlayerRegion"));
+		SceneManager.LoadScene ("CharacterCreation");
+	}
+	public void LoadSceneRegionSelect(){
+		SceneManager.LoadScene ("RegionSelect");
+	}
 	//Will be changed to pass in selected stats, save them to a file,
 	//and then load the new scene with those stats present.
 	public void LoadSceneDayOne(){

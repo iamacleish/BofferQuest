@@ -2,4 +2,17 @@
 Button.width = screen.width/3 (.3333333, .6666666)
 Button.height = screen.height/10 (1, 2)
 Button.box = (0.33333 , 0.0, 0.66666, 0.1)
+text = best fit;
+
+Main Menu:
+min x1, x2 map to (.3333333) (.6666666)
+y values: 
+Button.height = screen.height/10 which is .1
+prev and this: y1, y2
+
+
+Back button
+min: x1, y1 (0,0)
+max: 	.3 (which is x2) * screen width 
+		.1 (which isy2) * screen height
 */
